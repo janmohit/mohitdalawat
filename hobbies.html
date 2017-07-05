@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function()
+	{
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) 
+	  {
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") 
+	    {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+	      // Store hash
+	      var hash = this.hash;
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate(
+	      {
+	        scrollTop: $(hash).offset().top
+	      }, 600, function()
+	      {	   
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+	</script>
+	<head>
+		<title>Hobbies</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Mohit Bhagawan Singh Dalawat</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="work.html">Work</a>
+						<a href="https://drive.google.com/open?id=0B-9LPgTBzXg4a2diT01xWjZ1V1U" target="_blank">Resume</a>
+						<a href="hobbies.html">Hobbies</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+	</body>
+	<section id="main">
+		<div class="inner">
+			<header>
+				<h2><center>Hobbies</center></h2>
+			</header>
+			<p><center>I enjoy reading a lot. I am never satisfied with how much I read, and that dissatisfaction fuels me to explore new and diverse fields of mathematics, physics and computer science. I like reading in general about the various innovations and discoveries in this domain and also updating myself with general facts. Lately, I have started following Indian politics also.</center></p>
+			<p><center>In my free time, when I am not reading, I play chess with my friends and also online at <a href="https://www.chess.com/" target="_blank">Chess.com</a>. I learned to play chess at the age of 6. My father taught me how to play the game when I saw my uncle play it and asked about it. Do check out my chess profile <a href="https://www.chess.com/member/janmohit" target="_blank">here</a>. I love playing chess and I enjoy watching famous chess games of various Grandmasters on youtube. My personal favourite Grandmasters are Magnus Carlsen and Bobby Fischer.</center></p>
+			<p><center>I also play Lawn Tennis and Cricket with my friends and cousins. I learned to play Tennis at the age of 9. Playing cricket is soo much fun both in the field and in the streets. I enjoy listening to Hindi and English music. I also listen to random Arabic songs sometimes just to get in the vibe of the environment I have grown in. Every year I travel to places with my friends and family to enjoy the scenic beauty of nature. I strongly believe one should spend time with nature.</center></p>
+			<p><center>Also, please <a href="#contactme">contact me</a> for updates on personal stories and experiences.</center></p>
+		<hr>
+		</div>
+	</section>
+	<section id="contactme">
+		<div class="inner">
+			<center>
+				<ul class="icons">
+					<li><a href="https://twitter.com/msdalawat" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/iambackhere79" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/mohitdalawat/?hl=en" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/janmohit" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+					<li><a href="https://plus.google.com/u/0/+MohitDalawat96" class="icon fa-google-plus" target="_blank"><span class="label" target="_blank">Google+</span></a></li>
+				</ul>
+			</center>
+		</div>
+	</section>
+</html>
