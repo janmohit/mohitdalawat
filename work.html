@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function()
+	{
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) 
+	  {
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") 
+	    {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+	      // Store hash
+	      var hash = this.hash;
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate(
+	      {
+	        scrollTop: $(hash).offset().top
+	      }, 600, function()
+	      {	   
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+	</script>
+	<head>
+		<title>Work</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+	<body>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Mohit Bhagawan Singh Dalawat</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="work.html">Work</a>
+						<a href="https://drive.google.com/open?id=0B-9LPgTBzXg4a2diT01xWjZ1V1U" target="_blank">Resume</a>
+						<a href="hobbies.html">Hobbies</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<header class="major special">
+						<center><h2>WORK</h2></center>
+					</header>
+					<!-- Text -->
+						<section>
+						<!-- Table -->
+						<section>
+							<div class="table-wrapper">
+								<center><table>
+									<thead>
+										<tr>
+											<th><center>PROJECT NAME</center></th>
+											<th><center>DATE OF COMPLETION</center></th>
+											<th><center>DESCRIPTION</center></th>	
+											<th></th>								
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><center>Attention Mapping App</center></td>
+											<td><center>May, 2017</center></td>
+											<td><center>Maps real time Attention and gives <br>a neurofeedback</center></td>
+											<td><center><a href="#AttentionMappingApp" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>WebChat Application</center></td>
+											<td><center>April, 2017</center></td>
+											<td><center>Online Web Chatting Application</center></td>
+											<td><center><a href="#WebChatApplication" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Research Internship</center></td>
+											<td><center>December, 2016</center></td>
+											<td><center>ML Algorithm to predict if a person is in
+											<br>High Attention or Low Attention</center></td>
+											<td><center><a href="#ResearchInternship" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Fire Detector</center></td>
+											<td><center>July, 2016</center></td>
+											<td><center>Detects Fire and sets the alarm on</center></td>
+											<td><center><a href="#FireDetector" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Heart Attack Detector</center></td>
+											<td><center>July, 2016</center></td>
+											<td><center>Algorithm to Detect Heart Attack and<br>notify the closed ones.</center></td>
+											<td><center><a href="#HeartAttackDetector" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Pulse Detector</center></td>
+											<td><center>July, 2016</center></td>
+											<td><center>Algorithm to Detect Pulse rate</center></td>
+											<td><center><a href="#PulseDetector" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Hostel Database System</center></td>
+											<td><center>May, 2016</center></td>
+											<td><center>Website to store all Hostel student records</center></td>
+											<td><center><a href="#HostelDBMS" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Login Application</center></td>
+											<td><center>February, 2016</center></td>
+											<td><center>Login Application linked to a server</center></td>
+											<td><center><a href="#LoginApplication" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Flashlight</center></td>
+											<td><center>February, 2016</center></td>
+											<td><center>Application to switch Flashlight on and off</center></td>
+											<td><center><a href="#Flashlight" class="button special">Read More</a></center></td>
+										</tr>
+										<tr>
+											<td><center>Happy Birthday</center></td>
+											<td><center>December, 2015</center></td>
+											<td><center>Application displaying a Birthday Card</center></td>
+											<td><center><a href="#HappyBirthday" class="button special">Read More</a></center></td>
+										</tr>
+									</tbody>
+									<tfoot>
+									<tr></tr>
+									</tfoot>
+								</table></center>
+						</section>
+						<br id="AttentionMappingApp">
+						<h3><center>Detailed Work Description</center></h2><br>
+						<section><center>
+							<header>
+								<h4><center>Attention Mapping App</center></h4>
+							</header>
+							<p>An Android Application Developed which takes as input the real time EEG signals from the brain and provides different kinds of Neurofeedback -<br>
+							<ul>
+								<li>Subject can select a Text file to read and based on the attention value of the subject the opacity level of the selected content changes. That is, the content is clearly visible only if the subject is in a High Attention state. As the attention level drops, the content becomes unclear to read thus making the reader aware of the drop in their attention.</li>
+								<li>This application can also be used to improve the attention value of the subject. Initially, a subject is made to read some content and the attention level is recorded. Then, the participants are made to play a Pattern Backward-Retrace Android Brain Game called NeuroNation and created by NeuroNation. This game is a psychologically approved tool to simulate Brain regions pertaining to Attention. Following the game, another prose is selected as content and the attention values are recorded. A neurofeedback showing the comparison between the two different attention values is shown in the form of a graph.</li>
+							</ul></p>
+							</center>
+						</section>
+						<br id="WebChatApplication">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>WebChat Application</center></h4>
+							</header>
+							<p>Developed a Web interface for people to chat. Users first have to create an account. Following which they have to create a chat room or join an existing chat room. Chat room is like a group where all the members of that room form a group and can chat only within that room. A URL can be generated by members of the chat room and can be sent to other people as an invitation to join the chat room. Multiple chat rooms can be generated simultaneously. Once the user is done chatting, they may logout off their account. On logging into their respective accounts again, the user can see the chat in the chat room they're a part of and continue chatting.</p>
+							</center>
+						</section>
+						<br id="ResearchInternship">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Research Internship</center></h4>
+							</header>
+							<p>During the winter 2016 Research Internship at LANS Lab, Delhi Technological University; I attended a workshop on Brain Science and Technology at Indian Institute of Technology, Delhi. Here I learned about Brain Science and various technologies used to understand Brain Science. Following which I developed a Machine Learning Algorithm to predict if a person is in a High Attention state or a Low Attention State. Data was collected using the Neurosky Mindwave EEG Headset from various people in different environments - While Solving math problems, Listening to Music, During meditation etc. For Attention prediction I used a SVM classifier as various research papers also suggested the same.</p>
+							</center>
+						</section>
+						<br id="FireDetector">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Fire Detector</center></h4>
+							</header>
+							<p>During the summer 2016 Training at HCL, Delhi; I learned about Embedded Systems and developed 3 Projects as part of the training task - Fire Detector being one of the three. Circuit design was done using Proteus software initially which was then implemented on the Hardware. The coding for the detector was done using C language in the Atmel Studio software. On detection of very high temperature, the alarm would be set on, alarming everyone around of fire in vicinity.</p>
+							</center>							
+						</section>
+						<br id="HeartAttackDetector">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Heart Attack Detector</center></h4>
+							</header>
+							<p>During the summer 2016 Training at HCL, Delhi; I learned about Embedded Systems and developed 3 Projects as part of the training task - Heart Attack Detector being one of the three. Circuit design was done using Proteus software initially which was then implemented on the Hardware. The coding for the detector was done using C++ language in the Atmel Studio software. GSM technology was also used. The detector would notify the Emergency contact numbers saved in the device when a Heart Attack is detected in a person wearing the device.</p>
+							</center>							
+						</section>
+						<br id="PulseDetector">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Pulse Detector</center></h4>
+							</header>
+							<p>During the summer 2016 Training at HCL, Delhi; I learned about Embedded Systems and developed 3 Projects as part of the training task - Pulse Detector being one of the three. Circuit design was done using Proteus software initially which was then implemented on the Hardware. The coding for the detector was done using C language in the Atmel Studio software. The detector would display the real time pulse rate of the subject on a LCD screen attached to the detector.</p>
+							</center>
+						</section>
+						<br id="HostelDBMS">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Hostel Database System</center></h4>
+							</header>
+							<p>Developed a web page to update student records of those staying in Hostel. New student records can be added, student details can be edited and student records can also be removed. Certain parameter checks were also deployed to check if the details inputted aren't incorrect.</p>
+							</center>
+						</section>
+						<br id="LoginApplication">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Login Application</center></h4>
+							</header>
+							<p>An application to implement Back End Programming in Android by creating an interface to Register as a new user and Login through the app using the registered details.</p>
+							</center>
+						</section>
+						<br id="Flashlight">
+						<hr>
+						<br>
+						<section>
+							<center>
+							<header>
+								<h4><center>Flashlight</center></h4>
+							</header>
+							<p>An Android application developed to control the Flashlight of the mobile device by turning it on and off.</p>
+							</center>
+						</section>
+						<br id="HappyBirthday">
+						<hr>
+						<br>
+						<section>
+							<div class="inner">
+							<center>
+							<header>
+								<h4><center>Happy Birthday</center></h4>
+							</header>
+							<p>An Android application developed to wish a friend on his Birthday. The application displays a Birthday card on opening.</p>
+							</center>
+							</div>
+						</section>
+						<br>
+						<hr>
+				</div>
+			</section>
+			<center>
+				<ul class="icons">
+					<li><a href="https://twitter.com/msdalawat" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/iambackhere79" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/mohitdalawat/?hl=en" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/janmohit" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+					<li><a href="https://plus.google.com/u/0/+MohitDalawat96" class="icon fa-google-plus" target="_blank"><span class="label" target="_blank">Google+</span></a></li>
+				</ul>
+			</center>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
